@@ -19,7 +19,8 @@ To run the program, simply compile and execute the provided C++ code.
 
 ### Example:
 
-g++ -std=c++17 -o main main.cpp
+g++ main.cpp dictionary.cpp -o main
+
 
 ./main < data.txt
 
